@@ -1,25 +1,27 @@
-# Librería DLS de Componentes
+<h1> DLS Component Library Jetpack compose</h1>
 
-Esta librería permite la construcción de los compontentes del sistema de diseño basados en Kotlin 
+This library allows the construction of Kotlin-based design system components.
 
-***Recomendaciones:
+<h3>Recommendations:</h3>
+<ol>
+<li>Associate source code repository before app download from VCS option:</li> 
+        <li>Enable Version Control Integration</li>
 
--Asociar repositorio de código fuente antes de la descarga de la app desde la opción VCS: -> Enable Version Control Integration
+<li>If you do not have a physical device, you can configure a virtual device that supports at least API 30 or higher.</li>
 
--En caso de no contar con un dispositivo físico puede configurar un dispositivo virtual que soporte al menos un API 30 o superior.
+<li>Consider having the latest Android Studio update</li>
+</ol>
 
--Considerar tener la última actualización de Android Studio
-
-****Instalación
-
-1.- Descargar el proyecto de repositorio 
-2.- Realizar la sincronización a través de Gradle (puede tardar varios minutos) 
-3.- Agregar la dependecia de la librería en el archivo Gradle (app): (nombre de la librería que se generará)
+<h3>Software installation</h3>
+<ul>
+<li>Download the repository project </li>
+<li>Perform sync via Gradle (may take several minutes) </li>
+<li>Add the library dependency in the Gradle file (app): (name of the library to be generated)</li>
         implementation project(path: ':mylibrary')
-4.- Una vez realizada esta acción es necesario volver a realizar la sincronización del proyecto 
-5.- Es importante que al finalizar cada cambio de la librería es necesario actualizar el archivo (.lib) nuevamente en el proyecto base donde se consumirá.
-6.- Es posible realizar pruebas unitarias de las módulos de la librería.
-
+<li>Once this action is done, it is necessary to carry out the synchronization of the project again. </li>
+<li>It is important that at the end of each change to the library it is necessary to update the file (.lib) again in the base project where it will be consumed.</li>
+<li>It is possible to carry out unit tests of the modules of the library.</li>
+</ul>
 Enjoy coding!
 
 
